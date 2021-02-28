@@ -1,0 +1,186 @@
+Body {
+    background-color: rgb(145, 130, 151, .5);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header{
+    font-family: 'Major Mono Display', monospace;
+    display:flex;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: rgb(145, 130, 151, .2);
+}
+.title {
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 200;
+    font-size: 55px; 
+}
+.nemo{
+    text-align: right;
+    vertical-align: middle;
+    font-size: 25px;
+}
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+img {
+    vertical-align: right;
+  width: 150px;
+  height: 180px;
+  padding: 20px;
+  float: right;
+ 
+  }
+
+.Subtitle{
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 400;
+    font-size: larger;
+    display:flex;
+    flex-wrap: wrap;
+    height: 275px;
+    margin-bottom: 80px;
+    width: 100%;
+    background-image: url(./images/cityscaape.jpg);
+
+}
+
+h2{
+    border: solid;
+    border: rgb(145, 130, 151);
+    background-color:rgb(145, 130, 151, .5);
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    justify-content: center;
+}
+
+article{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    vertical-align: auto;
+    width: 100%;
+}
+.aboutme {
+
+    text-align: justify;
+    height: fit-content; 
+    font-size: 15pt;
+    width: 100%; 
+} 
+
+p {
+    border-width: 20px;
+    margin-left: 150px;
+    padding: 30px;
+
+}
+/* all list in html get this alignment */
+li {
+    list-style: none;
+    margin: auto;
+    display: inline;
+    justify-self: 'space around';
+    align-items: flex-end;
+    font-size: 20px;
+}
+/* alignment of class */
+
+.containers{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    display: inline-flex;
+    justify-self:center;
+   
+}
+/* figure box with border */
+figure{ 
+    border: rgb(87, 87, 90);
+    padding: 30px;
+    height: 80px;
+    width: 20%;
+    border-style: double;
+    border-width: 20px;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 15px;
+   
+/* images in figure boxes fill box */
+}
+#figo{
+    background-image: url(./images/jantine-doornbos-HvYy5SEefC8-unsplash.jpg);
+    background-size: contain;
+    object-fit: cover;
+    
+    
+}
+#figt{
+    background-image: url(./images/roman-synkevych-vXInUOv1n84-unsplash.jpg);
+    background-size: cover;
+    object-fit: cover;
+  
+}
+#figth{
+    background-image: url(./images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+     background-size: cover; 
+    object-fit: cover;
+
+}
+
+#figf {
+    background-image: url(./images/jantine-doornbos-HvYy5SEefC8-unsplash.jpg);
+    background-size: contain;
+    object-fit: cover:
+
+/* Imaged glow as hover over them */
+}
+#figo:hover {
+    cursor: pointer;
+    height:475px;
+    width: 350px;
+    background-size: cover;
+   object-fit: cover;
+   background-repeat: no-repeat;
+}
+#figt:hover {
+    cursor: pointer;
+    height:475px;
+    width: 350px;
+}
+#figth:hover {
+    cursor: pointer;
+    height:475px;
+    width: 350px;
+ }
+ #figf:hover {
+    cursor: pointer;
+    height:475px;
+    width: 350px;
+ }
+    
+    
+/* Allow for webpage to be reponsive to size change */
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
