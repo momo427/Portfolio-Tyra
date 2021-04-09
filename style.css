@@ -6,7 +6,10 @@
       flex-wrap: wrap;
       padding: 30px;
   }
- 
+ #potpic{
+    width:600px;
+    height:600px;
+ }
   img {
     border-radius:55px;
     width: 80px;
@@ -44,4 +47,65 @@ footer {
 
 .content{
     margin-top: 10rem;
+}
+
+@media only screen and (max-width: 760px){
+    .work {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    #wallet{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    #aboutme {
+    flex-direction: row ;
+    flex-wrap: wrap;
+    width: 100vh;
+    height: 45vh;
+    }
+
+    #potpic{
+        width: 80vh;
+        height: 80vh;
+        margin: 150px;
+        
+    }
+  
+    #top {
+        display: flex;
+        flex-direction: row ;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: whitesmoke;
+        width: 100vh;
+    }
+  .work {
+      border-bottom: none;
+      
+      height: fit-content;
+      display: inline;
+      justify-content: space-around;
+      
+  }
+  .work-pic{
+      width: 20rem;
+      height: 15rem;
+  
+  }
+  footer {
+      height: 3rem;
+      background-color: whitesmoke;
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+  }
+  
+  .content{
+      margin-top: 1rem;
+  }
 }
