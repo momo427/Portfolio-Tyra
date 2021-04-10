@@ -15,6 +15,6 @@ This webpage is my professional portfolio that allows potential employers to vie
 ![image](images/screencapture-momo427-github-io-Portfolio-Tyra-2021-04-10-17_00_22 (1).png)
 ![image](images/screencapture-momo427-github-io-Portfolio-Tyra-2021-04-10-17_01_40.pngg)
 
-# lisence
+# liscense
 
 Google Fonts
