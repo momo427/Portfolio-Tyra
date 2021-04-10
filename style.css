@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto Slab', serif;
 }
+
 h1, 
 h3 {
 font-family: 'Lemon', cursive;
@@ -8,13 +9,14 @@ color: rgb(66, 22, 66);
 }
 
   
-  .work {
-      display: flex;
-      justify-content: center;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      padding: 30px;
+.work {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
   }
+  
  #potpic{
     width:600px;
     height:600px;
