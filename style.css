@@ -1,4 +1,12 @@
+body {
+    font-family: 'Paytone One', sans-serif;
+}
+h1 {
 
+   color: rgb(66, 22, 66);
+}
+
+  
   .work {
       display: flex;
       justify-content: center;
