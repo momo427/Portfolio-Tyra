@@ -35,6 +35,7 @@
 }
 .work-pic{
     width: 45rem;
+    cursor: pointer;
 
 }
 footer {
@@ -48,8 +49,9 @@ footer {
 .content{
     margin-top: 10rem;
 }
+ 
 
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 786px){
     .work {
         display: flex;
         justify-content: center;
