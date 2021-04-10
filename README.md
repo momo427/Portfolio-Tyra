@@ -1,6 +1,11 @@
 # Portfolio-Tyra
 
-This was a personal portfolio project for GW bootcamp, using html and advances css tool to create a visiually apealling and reactive webpage. Making note of appropriate html syntax.
+
+https://momo427.github.io/Portfolio-Tyra/
+
+#Technologies
+HTML and CSS.
+
 
 CSS tools used:
     class 
