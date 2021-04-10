@@ -1,9 +1,10 @@
 body {
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
-h1 {
-
-   color: rgb(66, 22, 66);
+h1, 
+h3 {
+font-family: 'Lemon', cursive;
+color: rgb(66, 22, 66);
 }
 
   
